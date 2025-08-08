@@ -1033,7 +1033,7 @@ fi
 ## Xnxx
 
 printf "\e[1;77m[\e[0m\e[1;92m+\e[0m\e[1;77m] Xnxx: \e[0m"
-check1=$(curl -s -i "https://xnxx.com/user/$username" -H "Accept-Language: en" -L | grep -o 'profile:username' ; echo $?)
+check1=$(curl -s -i "https://xnxx.com/search/$username" -H "Accept-Language: en" -L | grep -o 'profile:username' ; echo $?)
 
 if [[ $check1 == *'1'* ]] ; then 
 printf "\e[1;93mNot Found!\e[0m\n"
@@ -1046,7 +1046,7 @@ fi
 ## Xredwap
 
 printf "\e[1;77m[\e[0m\e[1;92m+\e[0m\e[1;77m] xRedwap: \e[0m"
-check1=$(curl -s -i "https://xredwap.com/user/$username" -H "Accept-Language: en" -L | grep -o 'profile:username' ; echo $?)
+check1=$(curl -s -i "https://xredwap.com/search/$username" -H "Accept-Language: en" -L | grep -o 'profile:username' ; echo $?)
 
 if [[ $check1 == *'1'* ]] ; then 
 printf "\e[1;93mNot Found!\e[0m\n"
