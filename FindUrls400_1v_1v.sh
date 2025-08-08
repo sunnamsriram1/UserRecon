@@ -14,7 +14,7 @@ NC='\033[0m'
 trap ctrl_c INT
 function ctrl_c() {
     echo -e "\n${RED}⛔ Scan aborted by user.${NC}"
-    exit 1
+    exit 
 }
 
 # 🧼 Clear and Banner
