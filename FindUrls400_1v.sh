@@ -24,7 +24,7 @@ cat << "EOF"
 | |_| \__ \  __/ |  |  _ <  __/ (_| (_) | | | |
  \___/|___/\___|_|  |_| \_\___|\___\___/|_| |_|
 
-             v1. Codded by Sunnam_Sriram
+             1.0v. Coded by Sunnam_Sriram
 EOF
 echo -e "${NC}"
 
